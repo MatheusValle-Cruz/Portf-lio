@@ -26,20 +26,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
     
 }
 
 .apresentacao__conteudo {
-    width: 615;
+    width: 615px;
     display: flex;
-    height: 482px ;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36;
+    font-size: 2.5rem;
     font-family: "Krona One", serif;
 }
 
@@ -49,12 +47,11 @@ body{
 
 
 .apresentacao__conteudo__texto {
-    font-size: 24;
+    font-size: 1.5rem;
     font-family: "Montserrat", serif;
 }
 
 .apresentacao__links {
-    margin: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +61,7 @@ body{
 .apresentacao__subtitulo {
     font-family: "krona one", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link {
@@ -75,7 +72,7 @@ body{
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21,5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -94,7 +91,7 @@ body{
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: "Montserrat", serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .cabecalho {
@@ -108,7 +105,7 @@ body{
 
 .cabecalho__menu__link {
     font-family: "Montserrat", serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color:var(--cor-terciaria);
     text-decoration: none;
@@ -117,12 +114,11 @@ body{
 .apresentacao__conteudo__curriculo {
     width: 615;
     display: flex;
-    height: 482px ;
     flex-direction: column;
     gap: 20px;
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 320px) { 
     .cabecalho {
         padding: 10%;
     }
